@@ -2,7 +2,7 @@
   "name": "vuex-suggest",
   "displayName": "Vuex Suggest",
   "description": "Vuex suggest in Vue components",
-  "icon": "./src/assets/vue.png",
+  "icon": "src/assets/vue.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/mishannn/vuex-suggest"
