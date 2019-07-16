@@ -78,10 +78,10 @@ export function activate(context: vscode.ExtensionContext): void {
         const lastScriptTagPos: Number = documentText.lastIndexOf('</script>');
 
         if (firstScriptTagPos <= currentPos && currentPos <= lastScriptTagPos) {
-          const linePrefix: string = document.lineAt(position).text.substr(0, position.character);
-          if (!linePrefix.endsWith('this.')) {
-            return undefined;
-          }
+          // const linePrefix: string = document.lineAt(position).text.substr(0, position.character);
+          // if (!linePrefix.endsWith('this.')) {
+          //   return undefined;
+          // }
         } else {
           const firstTemplateTagPos: Number = documentText.indexOf('<template>') + 10;
           const lastTemplateTagPos: Number = documentText.lastIndexOf('</template>');
